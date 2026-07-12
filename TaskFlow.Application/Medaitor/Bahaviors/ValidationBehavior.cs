@@ -25,6 +25,8 @@ namespace TaskFlow.Application.Medaitor.Bahaviors
                     .SelectMany(result => result.Errors)
                     .Where(failure => failure != null)
                     .ToList();
+
+
                 if (validationResults.Count != 0)
                 {
                     throw new ValidationException(validationResults);

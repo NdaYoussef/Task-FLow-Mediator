@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TaskFlow.Application.Features.Products.Commands
+namespace TaskFlow.Application.Features.Tasks.Queries
 {
-    internal class Delete
+    internal class GetById
     {
     }
 }

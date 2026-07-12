@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TaskFlow.Application.Features.Products.Commands
+namespace TaskFlow.Application.Features.Tasks.Commands
 {
-    public class Create
+    internal class Update
     {
     }
 }

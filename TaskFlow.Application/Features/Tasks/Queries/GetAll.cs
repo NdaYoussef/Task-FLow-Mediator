@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TaskFlow.Application.Features.Products.Queries
+namespace TaskFlow.Application.Features.Tasks.Queries
 {
-    internal class GetById
+    internal class GetAll
     {
     }
 }
