@@ -4,7 +4,6 @@ using System.Text;
 
 namespace TaskFlow.Application.Features.Products.Queries
 {
-    internal class GetAll
-    {
-    }
+    public record GetAll 
+
 }

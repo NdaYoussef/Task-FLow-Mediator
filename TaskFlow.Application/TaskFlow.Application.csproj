@@ -11,4 +11,8 @@
     <Folder Include="Medaitor\Messagings\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TaskFlow.Domain\TaskFlow.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
