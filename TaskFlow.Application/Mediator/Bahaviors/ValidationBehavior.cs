@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace TaskFlow.Application.Medaitor.Bahaviors
+namespace TaskFlow.Application.Mediator.Bahaviors
 {
     public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
 

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TaskFlow.Domain.Common
+namespace TaskFlow.Domain.Common.ResutlPatterns
 {
     public interface IResult
     {

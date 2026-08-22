@@ -2,9 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using TaskFlow.Domain.Common;
+using TaskFlow.Domain.Common.ResutlPatterns;
 
-namespace TaskFlow.Application.Medaitor.Messagings
+namespace TaskFlow.Application.Mediator.Messaging
 {
 
 

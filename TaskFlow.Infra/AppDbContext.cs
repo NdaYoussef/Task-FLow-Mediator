@@ -7,23 +7,10 @@ using TaskFlow.Domain.Entities;
 
 namespace TaskFlow.Infra
 {
-    public class AppDbContext : IAppDbContext
+    public class AppDbContext(DbContextOptions<AppDbContext> options): DbContext(options), IAppDbContext
     {
-        public DbSet<TaskItem> TaskItems {  get; set; }
+        public DbSet<TaskItem> TaskItems => Set<TaskItem>();
 
-        public void Dispose()
-        {
-            
-        }
 
-        public Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
-        {
-            throw new NotImplementedException();
-        }
-
-        public DbSet<TEntity> Set<TEntity>() where TEntity : class
-        {
-            throw new NotImplementedException();
-        }
     }
 }

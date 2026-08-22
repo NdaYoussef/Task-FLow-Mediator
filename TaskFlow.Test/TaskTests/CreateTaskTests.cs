@@ -4,7 +4,14 @@ using System.Text;
 
 namespace TaskFlow.Test.TaskTests
 {
-    internal class CreateTaskTests
+    //workflow 
+    /*
+     * 1- Valid Command 
+     * 2- Validation Error Command
+     * 3- DataPbase interaction error Command
+     * 
+     * */
+    public class CreateTaskTests
     {
     }
 }

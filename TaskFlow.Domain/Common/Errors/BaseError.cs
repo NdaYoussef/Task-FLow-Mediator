@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TaskFlow.Application.Medaitor.Bahaviors
+namespace TaskFlow.Domain.Common.Errors
 {
-    internal class LoggingBehavior
+    internal class BaseError
     {
     }
 }
