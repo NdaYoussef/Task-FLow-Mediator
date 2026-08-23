@@ -7,11 +7,11 @@ namespace TaskFlow.Domain.Common.Base
 {
     public interface IBaseEntity
     {
-        Guid Key { get; set; }
+        Guid Id { get; set; }
     }
     public abstract class BaseEntity : IBaseEntity, IAuditable, ISoftDeletable
     {
-        public Guid Key { get; set ; }= Guid.CreateVersion7(); //time-based GUID
+        public Guid Id { get; set ; }= Guid.CreateVersion7(); //time-based GUID
 
         public DateTime CreatedAt { get; set ; }
 

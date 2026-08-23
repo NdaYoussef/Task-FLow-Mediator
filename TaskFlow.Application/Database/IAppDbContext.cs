@@ -8,7 +8,6 @@ namespace TaskFlow.Application.Database
 {
     public interface IAppDbContext : IDisposable
     {
-        DbSet<TEntity> Set<TEntity>() where TEntity : class;
         DbSet<TaskItem> TaskItems { get;}
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
