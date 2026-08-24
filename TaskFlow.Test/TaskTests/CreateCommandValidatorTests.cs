@@ -15,9 +15,45 @@ namespace TaskFlow.Test.TaskTests
      * 3- Database interaction error Command
      * 
      * */
+
+    #region Methods for NUint 
+
+    //public void SetUp()
+    //{
+    //    // Initialize any required dependencies or test data here
+    //}
+
+
+    //public void TearDown()
+    //{
+    //    // Clean up any resources or reset state after each test
+    //}
+
+    //public void OneTimeSetUp()
+    //{
+    //    // Perform any one-time setup before all tests
+    //}
+
+    //public void OneTimeTearDown()
+    //{
+    //    // Perform any one-time cleanup after all tests
+    //} 
+    #endregion
+
     public class CreateCommandValidatorTests 
     {
-        private readonly Validator _validator = new Validator();
+        private readonly Validator _validator;
+
+        //act as SetUp
+        public CreateCommandValidatorTests()
+        {
+            _validator = new Validator();
+        }
+
+        public void Dispose()
+        {
+            // Cleanup
+        }
 
 
         [Fact]
