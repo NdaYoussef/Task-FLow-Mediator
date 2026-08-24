@@ -16,7 +16,7 @@ namespace TaskFlow.Application.Features.Tasks.Commands
         {
             public Validator()
             {
-                RuleFor(x => x.title).NotEmpty().WithMessage("Title is required.");
+                RuleFor(x => x.title).NotEmpty().WithMessage("Title is required");
                 RuleFor(x => x.description).NotEmpty().WithMessage("Description is required.");
             }
         }
